@@ -1,0 +1,48 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/a9/6d/71/a96d717fada4bc79630b883a0a56e087.gif");
+    background-size: 100%;
+  }
+  
+  .card {
+    width: 55px;
+    height: 70px;
+    border: 1px solid black;
+    margin: 1px;
+    padding: 1px;
+    display: inline-block;
+    position: relative;
+    border-radius: 3px;
+    background-color: beige; }
+  
+  .column {
+    margin-top: 10px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  
+  .suit-top {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    font-size: 20px;
+  }
+  
+  .rank {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+  }
+  
+  .suit-bottom {
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    font-size: 20px;
+    transform: rotate(180deg);
+  }
+    
